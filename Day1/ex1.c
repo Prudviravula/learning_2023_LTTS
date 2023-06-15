@@ -12,9 +12,22 @@ int main()
   
     return 0;  
 }
-/*using if else if statements*/
-#include<stdio.h>
-int main(){
-printf("enter the two numbers\n");
-
+/*using if else if statements prudvi*/  
+int partb() {  
+    int a, b;  
+    printf("Please Enter Two different values\n");  
+    scanf("%d %d", &a, &b);  
+    
+    if(a > b) 
+    {
+        printf("%d is Largest\n", a);          
+    } 
+    else 
+    { 
+        printf("%d is Largest\n", b);  
+    } 
+    
+   
+    return 0;  
 }
+
