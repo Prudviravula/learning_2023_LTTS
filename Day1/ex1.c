@@ -12,7 +12,7 @@ int main()
   
     return 0;  
 }
-/*using if else if statements prudvi*/  
+/*using if else if statements */  
 int partb() {  
     int a, b;  
     printf("Please Enter Two different values\n");  
